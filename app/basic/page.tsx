@@ -125,22 +125,6 @@ const Section = ({ title, children }: { title: string; children: React.ReactNode
 );
 
 export default function BasicBuddhism() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // 在组件挂载后立即设置加载完成
-    setIsLoading(false);
-  }, []);
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center" style={{ background: 'linear-gradient(to bottom, #F5F5DC, #FFF8DC)' }}>
-        <div className="text-[#8B4513] text-xl animate-pulse">
-          正在加载...
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen" style={{ background: 'linear-gradient(to bottom, #F5F5DC, #FFF8DC)' }}>
