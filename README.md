@@ -142,12 +142,6 @@ fa-yin-bi-an/
 
 本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
 
-## 联系方式
-
-- 项目维护者：[Your Name]
-- 电子邮件：[your.email@example.com]
-- 项目主页：[https://github.com/yourusername/fa-yin-bi-an]
-
 ---
 
 如果您觉得这个项目对您有帮助，欢迎给我们一个星标 ⭐️
