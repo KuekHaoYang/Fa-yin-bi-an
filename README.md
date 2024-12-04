@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 基础佛法
 
-## Getting Started
+一个现代化的交互式网络应用，展示佛教的基本教义和历史，重点介绍释迦牟尼佛的生平和教导。
 
-First, run the development server:
+## 🌟 主要特点
+
+- **交互式目录**: 浮动式响应菜单，帮助用户快速跳转到不同章节
+- **优雅设计**: 以传统佛教美学为灵感的精美界面和舒适配色
+- **响应式布局**: 完全响应式设计，在桌面端和移动端都能完美展示
+- **平滑滚动**: 通过平滑滚动效果提升用户体验
+- **现代化组件**: 使用 React 和 Tailwind CSS 构建的现代清新界面
+
+## 🛠️ 技术栈
+
+- **框架**: Next.js 13+ (App Router)
+- **UI库**: React
+- **样式**: Tailwind CSS
+- **开发语言**: TypeScript
+
+## 📚 内容章节
+
+1. 佛教三要素
+2. 佛历与佛诞
+3. 佛陀的圣号释义
+4. 佛陀示现
+5. 释迦牟尼佛简史
+6. 幼年及少年时代
+7. 出家
+8. 修行的经过
+9. 成道
+10. 说法度众生的工作
+11. 涅槃
+12. 影响世界的真理
+13. 八相示现
+
+## 🚀 快速开始
+
+1. 克隆仓库：
+
+```bash
+git clone [仓库地址]
+```
+
+2. 安装依赖：
+
+```bash
+npm install
+# 或
+yarn install
+```
+
+3. 运行开发服务器：
 
 ```bash
 npm run dev
-# or
+# 或
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. 在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 响应式设计
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+应用程序完全响应式，在各种设备上都能提供最佳浏览体验：
+- 桌面端：完整的侧边栏导航
+- 移动端：可折叠的浮动菜单按钮
+- 平板端：结合桌面端和移动端优点的自适应布局
 
-## Learn More
+## 🎨 设计特点
 
-To learn more about Next.js, take a look at the following resources:
+- 渐变背景
+- 流畅的过渡动画
+- 交互式界面元素
+- 无障碍配色方案
+- 现代化排版
+- 基于卡片的布局，提升可读性
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 参与贡献
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+欢迎提交 Pull Request 参与项目贡献。
 
-## Deploy on Vercel
+## 📄 许可证
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+本项目采用 MIT 许可证 - 详情请查看 LICENSE 文件。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🙏 致谢
+
+特别感谢所有贡献者和佛教界提供的宝贵内容与反馈。

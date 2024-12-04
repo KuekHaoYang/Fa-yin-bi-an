@@ -1,101 +1,53 @@
-import Image from "next/image";
+"use client";
+
+import { Button } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const menuItems = [
+    { title: "基础佛法", path: "/basic" },
+    { title: "修行大要", path: "/practice" },
+    { title: "佛典故事", path: "/stories" },
+    { title: "如来诸经", path: "/sutras" },
+    { title: "禅宗大义", path: "/zen" },
+    { title: "如何往生", path: "/rebirth" },
+    { title: "佛教历史", path: "/history" },
+    { title: "法华华严", path: "/lotus" },
+  ];
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <div className="bg-[#F5F5DC] px-4 py-6">
+      <div className="flex flex-col items-center gap-6">
+        <h1 className="text-3xl md:text-5xl font-bold text-center" style={{ color: "#D4AF37" }}>
+          法音彼岸
+        </h1>
+        <p className="text-base md:text-lg text-center text-[#333333] mb-4">
+          浮生若梦，为欢几何？愿以此功德，庄严佛净土。
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-3xl">
+          {menuItems.map((item, index) => (
+            <Link href={item.path} key={index} className="w-full">
+              <Button
+                className="w-full h-12 text-base bg-[#D4AF37] text-white hover:bg-[#C5A017] transition-colors"
+              >
+                {item.title}
+              </Button>
+            </Link>
+          ))}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div className="mt-12 text-center border-t border-[#D4AF37]/10 pt-8 w-full max-w-3xl">
+          <div className="flex flex-col gap-2">
+            <p className="text-[#333333] text-lg font-light tracking-wider">
+              梦中明明有六趣
+            </p>
+            <p className="text-[#333333] text-lg font-light tracking-wider">
+              觉后空空无大千
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
