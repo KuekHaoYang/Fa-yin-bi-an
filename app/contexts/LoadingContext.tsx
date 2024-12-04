@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { Loading } from '../components/Loading';
 
 interface LoadingContextType {
@@ -14,7 +14,6 @@ const LoadingContext = createContext<LoadingContextType | undefined>(undefined);
 export function LoadingProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(false);
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   // 路由变化时自动显示加载状态
   useEffect(() => {
@@ -23,7 +22,7 @@ export function LoadingProvider({ children }: { children: React.ReactNode }) {
       setIsLoading(false);
     }, 800);
     return () => clearTimeout(timer);
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   const showLoading = useCallback(() => {
     setIsLoading(true);
