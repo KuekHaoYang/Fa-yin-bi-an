@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.13.5",
     "@nextui-org/react": "^2.4.8",
     "framer-motion": "^11.13.0",
+    "lucide-react": "^0.464.0",
     "next": "15.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
