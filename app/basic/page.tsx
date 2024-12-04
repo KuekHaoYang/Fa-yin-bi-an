@@ -61,7 +61,7 @@ const TableOfContents = () => {
   const MenuButton = () => (
     <button
       onClick={() => setIsMenuOpen(!isMenuOpen)}
-      className="fixed right-4 bottom-4 z-50 bg-amber-100 text-[#8B4513] p-3 rounded-full shadow-lg md:hidden hover:bg-amber-200 transition-colors duration-200"
+      className="fixed left-4 bottom-4 z-50 bg-amber-100 text-[#8B4513] p-3 rounded-full shadow-lg hover:bg-amber-200 transition-colors duration-200"
     >
       <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -73,27 +73,10 @@ const TableOfContents = () => {
     <>
       <MenuButton />
       
-      <div className="hidden md:block fixed right-4 top-20 w-48 bg-white/90 p-4 rounded-lg shadow-lg backdrop-blur-sm border border-amber-100 max-h-[80vh] overflow-y-auto">
-        <h3 className="text-lg font-bold mb-4 text-[#8B4513] border-b border-amber-200 pb-2">目录</h3>
-        <ul className="space-y-2">
-          {sections.map((section) => (
-            <li key={section}>
-              <button
-                onClick={() => scrollToSection(section)}
-                className={`text-left w-full px-2 py-1 rounded text-sm hover:bg-amber-50 transition-colors duration-200
-                  ${activeSection === section ? 'text-[#8B4513] font-bold bg-amber-50' : 'text-[#4A3728]'}`}
-              >
-                {section}
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
-
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-black/50 z-40" onClick={() => setIsMenuOpen(false)}>
+        <div className="fixed inset-0 bg-black/50 z-40" onClick={() => setIsMenuOpen(false)}>
           <div 
-            className="fixed right-4 bottom-16 w-64 bg-white/95 p-4 rounded-lg shadow-lg backdrop-blur-sm border border-amber-100 max-h-[70vh] overflow-y-auto"
+            className="fixed left-4 bottom-20 w-64 bg-white/95 p-4 rounded-lg shadow-lg backdrop-blur-sm border border-amber-100 max-h-[70vh] overflow-y-auto"
             onClick={e => e.stopPropagation()}
           >
             <h3 className="text-lg font-bold mb-4 text-[#8B4513] border-b border-amber-200 pb-2">目录</h3>
