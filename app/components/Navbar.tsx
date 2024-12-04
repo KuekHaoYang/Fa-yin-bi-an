@@ -10,11 +10,12 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useState, useCallback } from "react";
 
 export function AppNavbar() {
   const pathname = usePathname();
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
@@ -28,8 +29,14 @@ export function AppNavbar() {
     { title: "法华华严", path: "/lotus" },
   ];
 
+  const handleItemClick = useCallback((path: string) => {
+    setIsMenuOpen(false);
+    router.push(path);
+  }, [router]);
+
   return (
     <Navbar 
+      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       className="bg-[#F5F5DC] h-12 border-b border-[#D4AF37]/20"
       maxWidth="full"
@@ -62,17 +69,26 @@ export function AppNavbar() {
         ))}
       </NavbarContent>
 
-      <NavbarMenu className="bg-[#F5F5DC] pt-2">
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={index}>
-            <Link
-              href={item.path}
-              className={`w-full ${pathname === item.path ? "text-[#D4AF37]" : "text-[#333333]"}`}
+      <NavbarMenu className="bg-[#F5F5DC] fixed inset-0 top-[48px] min-h-[calc(100vh-48px)] z-50">
+        <div className="bg-[#F5F5DC] min-h-full px-4 py-6">
+          {menuItems.map((item, index) => (
+            <NavbarMenuItem 
+              key={index} 
+              className="py-3"
             >
-              {item.title}
-            </Link>
-          </NavbarMenuItem>
-        ))}
+              <button
+                onClick={() => handleItemClick(item.path)}
+                className={`w-full text-left text-lg font-medium transition-colors duration-200 ${
+                  pathname === item.path 
+                    ? "text-[#D4AF37] border-b-2 border-[#D4AF37] pb-2" 
+                    : "text-[#333333] hover:text-[#D4AF37]"
+                }`}
+              >
+                {item.title}
+              </button>
+            </NavbarMenuItem>
+          ))}
+        </div>
       </NavbarMenu>
     </Navbar>
   );
