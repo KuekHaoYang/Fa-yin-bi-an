@@ -53,7 +53,7 @@
 
 1. 克隆项目仓库
 ```bash
-git clone https://github.com/yourusername/fa-yin-bi-an.git
+git clone https://github.com/oceanuo/Fa-yin-bi-an.git
 cd fa-yin-bi-an
 ```
 
