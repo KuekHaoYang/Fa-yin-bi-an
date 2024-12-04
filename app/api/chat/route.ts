@@ -3,11 +3,14 @@ import { NextResponse } from 'next/server';
 const apiHost = process.env.OPENAI_API_HOST || 'https://api.openai.com';
 const apiKey = process.env.OPENAI_API_KEY;
 
-if (!apiKey) {
-  throw new Error('Missing OPENAI_API_KEY environment variable');
-}
-
 export async function POST(req: Request) {
+  if (!apiKey) {
+    return NextResponse.json(
+      { error: 'OpenAI API key not configured' },
+      { status: 500 }
+    );
+  }
+
   try {
     const { messages } = await req.json();
 
