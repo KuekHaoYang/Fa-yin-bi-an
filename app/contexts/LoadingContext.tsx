@@ -15,13 +15,23 @@ export function LoadingProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(false);
   const pathname = usePathname();
 
-  // 路由变化时自动显示加载状态
+  // 路由变化时只在第一次显示加载状态
   useEffect(() => {
-    setIsLoading(true);
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 800);
-    return () => clearTimeout(timer);
+    let mounted = true;
+
+    if (mounted) {
+      setIsLoading(true);
+      const timer = setTimeout(() => {
+        if (mounted) {
+          setIsLoading(false);
+        }
+      }, 500); // 减少加载时间以提升用户体验
+
+      return () => {
+        mounted = false;
+        clearTimeout(timer);
+      };
+    }
   }, [pathname]);
 
   const showLoading = useCallback(() => {
