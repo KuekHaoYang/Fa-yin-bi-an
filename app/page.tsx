@@ -2,21 +2,8 @@
 
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
-import { useEffect } from "react";
-import { useLoading } from "./contexts/LoadingContext";
 
 export default function Home() {
-  const { showLoading, hideLoading } = useLoading();
-
-  useEffect(() => {
-    showLoading();
-    // 模拟加载过程
-    const timer = setTimeout(() => {
-      hideLoading();
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, [showLoading, hideLoading]);
-
   const menuItems = [
     { title: "基础佛法", path: "/basic" },
     { title: "修行大要", path: "/cultivation" },
@@ -43,7 +30,6 @@ export default function Home() {
             <Link href={item.path} key={index} className="w-full">
               <Button
                 className="w-full h-12 text-base bg-[#D4AF37] text-white hover:bg-[#C5A017] transition-colors"
-                onClick={() => showLoading()}
               >
                 {item.title}
               </Button>
