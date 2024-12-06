@@ -19,7 +19,7 @@ export default function Home() {
 
   const menuItems = [
     { title: "基础佛法", path: "/basic" },
-    { title: "修行大要", path: "/practice" },
+    { title: "修行大要", path: "/cultivation" },
     { title: "佛典故事", path: "/stories" },
     { title: "如来诸经", path: "/sutras" },
     { title: "禅宗大义", path: "/zen" },

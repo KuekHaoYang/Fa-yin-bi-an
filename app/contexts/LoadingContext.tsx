@@ -34,8 +34,8 @@ export function LoadingProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <LoadingContext.Provider value={{ showLoading, hideLoading }}>
-      {children}
       {isLoading && <Loading pathname={pathname} />}
+      {children}
     </LoadingContext.Provider>
   );
 }
