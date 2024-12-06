@@ -2,7 +2,6 @@ import { Providers } from "./providers";
 import { AppNavbar } from "./components/Navbar";
 import { AppFooter } from "./components/Footer";
 import { AIChatButton } from "./components/AIChatButton";
-import { LoadingProvider } from "./contexts/LoadingContext";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -20,16 +19,14 @@ export default function RootLayout({
     <html lang="zh-CN">
       <body className="bg-[#F5F5DC]">
         <Providers>
-          <LoadingProvider>
-            <div className="min-h-screen flex flex-col">
-              <AppNavbar />
-              <main className="flex-1">
-                {children}
-              </main>
-              <AppFooter />
-              <AIChatButton />
-            </div>
-          </LoadingProvider>
+          <div className="min-h-screen flex flex-col">
+            <AppNavbar />
+            <main className="flex-1">
+              {children}
+            </main>
+            <AppFooter />
+            <AIChatButton />
+          </div>
         </Providers>
       </body>
     </html>
