@@ -126,7 +126,7 @@ export default function Sutra() {
               <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
                 <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">如是我闻</h4>
                 <div className="space-y-4 text-lg text-[#4A3728]">
-                  <p className="mb-4">如是我闻。</p>
+                  <p className="mb-4"><strong>如是我闻。</strong></p>
                   <p>这部经是我阿难亲自听佛陀宣讲的。"如是我闻"是一切经典开头的第一句话，表示这是佛陀的真实教法。这四字是佛灭度后，阿难尊者结集经藏时，遵照佛陀的遗命加在一切经首的。</p>
                 </div>
               </div>
@@ -165,7 +165,7 @@ export default function Sutra() {
               <div className="prose prose-xl max-w-none">
                 <div className="space-y-6 text-lg leading-relaxed text-[#4A3728]">
                   <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
-                    <p className="mb-4">一时佛在舍卫国。祇树给孤独园。与大比丘僧。千二百五十人俱。皆是大阿罗汉。众所知识。长老舍利弗。摩诃目犍连。摩诃迦叶。摩诃迦旃延。摩诃俱絺罗。离婆多。周利槃陀伽。难陀。阿难陀。罗侯罗。憍梵波提。宾头卢颇罗堕。迦留陀夷。摩诃劫宾那。薄拘罗。阿那楼陀。如是等诸大弟子。并诸菩萨摩诃萨。文殊师利法王子。阿逸多菩萨。乾陀诃提菩萨。常精进菩萨。与如是等诸大菩萨。及释提桓因等。无量诸天大众俱。</p>
+                    <p className="mb-4"><strong>一时佛在舍卫国。祇树给孤独园。与大比丘僧。千二百五十人俱。皆是大阿罗汉。众所知识。长老舍利弗。摩诃目犍连。摩诃迦叶。摩诃迦旃延。摩诃俱絺罗。离婆多。周利槃陀伽。难陀。阿难陀。罗侯罗。憍梵波提。宾头卢颇罗堕。迦留陀夷。摩诃劫宾那。薄拘罗。阿那楼陀。如是等诸大弟子。并诸菩萨摩诃萨。文殊师利法王子。阿逸多菩萨。乾陀诃提菩萨。常精进菩萨。与如是等诸大菩萨。及释提桓因等。无量诸天大众俱。</strong></p>
                     <p>有一天，释迦牟尼佛在舍卫国，祇树给孤独园里说法，在场的有佛陀的常随弟子出家众一千两百五十人。这一千两百五十人都是大阿罗汉，德行高尚，为众人所熟知的。这些人包括了：长老舍利弗、摩诃目犍连、摩诃迦叶、摩诃迦旃延、摩诃俱絺罗、离婆多、周利槃陀伽、难陀、阿难陀、罗侯罗、憍梵波提、宾头卢颇罗堕、迦留陀夷、摩诃劫宾那、薄拘罗、阿菟楼驮等佛陀的大弟子。此外，还有文殊师利菩萨、阿逸多菩萨、乾陀诃提菩萨、常精进菩萨等许多大菩萨；另外还有释提桓因等无数的天人都在场听法。</p>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function Sutra() {
               <div className="prose prose-xl max-w-none">
                 <div className="space-y-6 text-lg leading-relaxed text-[#4A3728]">
                   <div className="bg-amber-50/50 p-6 rounded-lg border border-amber-200">
-                    <p className="mb-4">尔时。佛告长老舍利弗。从是西方。过十万亿佛土有世界名曰极乐。其土有佛。号阿弥陀。今现在说法。舍利弗。彼土何故名为极乐。其国众生。无有众苦。但受诸乐。故名极乐。</p>
+                    <p className="mb-4"><strong>尔时。佛告长老舍利弗。从是西方。过十万亿佛土有世界名曰极乐。其土有佛。号阿弥陀。今现在说法。舍利弗。彼土何故名为极乐。其国众生。无有众苦。但受诸乐。故名极乐。</strong></p>
                     <p>这时，佛陀告诉长老舍利弗说：在这世界的西方，越过十万亿个有一个世界叫做极乐国。那里有一尊佛叫阿弥陀佛，现在正在说法。舍利弗，你知道那地方为什么叫极乐国吗？因为那里的众生只有快乐而没有众苦，所以叫做极乐。</p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ export default function Sutra() {
               <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
                 <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">七重庄严</h4>
                 <div className="space-y-4 text-lg text-[#4A3728]">
-                  <p className="mb-4">又舍利弗。极乐国土。七重栏楯。七重罗网。七重行树。皆是四宝。周匝围绕。是故彼国名为极乐。</p>
+                  <p className="mb-4"><strong>又舍利弗。极乐国土。七重栏楯。七重罗网。七重行树。皆是四宝。周匝围绕。是故彼国名为极乐。</strong></p>
                   <p>舍利弗，我再告诉你极乐国的周围有七道栅栏，空中有七层罗网，地上有七重排列整齐的树木；四面八方都是珍宝围绕，所以叫做极乐。</p>
                 </div>
               </div>
@@ -199,7 +199,7 @@ export default function Sutra() {
               <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
                 <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">七宝池</h4>
                 <div className="space-y-4 text-lg text-[#4A3728]">
-                  <p className="mb-4">又舍利弗。极乐国土。有七宝池。八功德水。充满其中。池底纯以金沙布地。四边阶道。金银。琉璃。玻璃合成。上有楼阁。亦以金银。琉璃。玻璃。砗磲。赤珠。玛瑙而严饰之。池中莲花大如车轮。青色。青光。黄色。黄光。赤色。赤光。白色。白光。微妙香洁。舍利弗。极乐国土。成就如是功德庄严。</p>
+                  <p className="mb-4"><strong>又舍利弗。极乐国土。有七宝池。八功德水。充满其中。池底纯以金沙布地。四边阶道。金银。琉璃。玻璃合成。上有楼阁。亦以金银。琉璃。玻璃。砗磲。赤珠。玛瑙而严饰之。池中莲花大如车轮。青色。青光。黄色。黄光。赤色。赤光。白色。白光。微妙香洁。舍利弗。极乐国土。成就如是功德庄严。</strong></p>
                   <p>舍利弗，我再告诉你，极乐国有七宝池（1），池里充满了八功德水（2）；池底满铺着金沙。池四边的阶道都是用金、银、琉璃、玻璃砌合而成。上面还有楼阁，也都是金流银耀，玉阶琼壁，更有琉璃砗磲，赤珠玛瑙，装饰着宝殿瑶宫，真有说不出的庄严华丽。池中的莲花开得同车轮一般大，色泽有青的、黄的、红的、也有白的；各自放出同色的光彩，微妙香洁。舍利弗，极乐国这地方成就了如上所说的功德庄严。</p>
                 </div>
               </div>
@@ -237,7 +237,8 @@ export default function Sutra() {
               <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
                 <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">名号由来</h4>
                 <div className="space-y-4 text-lg text-[#4A3728]">
-                  <p className="mb-4">舍利弗。于汝意云何。彼佛何故号阿弥陀。舍利弗。彼佛光明无量。照十方国。无所障碍。是故号为阿弥陀。又舍利弗。彼佛寿命。及其人民。无量无边阿僧祇劫。故名阿弥陀。</p>
+                  <p className="mb-4"><strong>舍利弗。于汝意云何。彼佛何故号阿弥陀。舍利弗。彼佛光明无量。照十方国。无所障碍。是故号为阿弥陀。又舍利弗。彼佛寿命。及其人民。无量无边阿僧祇劫。故名阿弥陀。舍利弗。阿弥陀佛成佛已来。于今十劫。
+                  </strong></p>
                   <p>舍利弗，你知道为什么那尊佛叫做阿弥陀佛吗？舍利弗，因为那尊佛的光明无量无边，能照耀十方世界而没有任何障碍，所以叫做阿弥陀。还有，舍利弗，那尊佛的寿命和他国土中的人民的寿命都是无量无边阿僧祇劫（4），所以叫做阿弥陀。</p>
                 </div>
               </div>
@@ -245,7 +246,7 @@ export default function Sutra() {
               <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
                 <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">十劫成佛</h4>
                 <div className="space-y-4 text-lg text-[#4A3728]">
-                  <p className="mb-4">舍利弗。阿弥陀佛。成佛以来。于今十劫。又舍利弗。彼佛有无量无边声闻弟子。皆阿罗汉。非是算数之所能知。诸菩萨众。亦复如是。舍利弗。彼佛国土。成就如是功德庄严。</p>
+                  <p className="mb-4"><strong>舍利弗。阿弥陀佛。成佛以来。于今十劫。又舍利弗。彼佛有无量无边声闻弟子。皆阿罗汉。非是算数之所能知。诸菩萨众。亦复如是。舍利弗。彼佛国土。成就如是功德庄严。</strong></p>
                   <p>舍利弗，阿弥陀佛成佛到现在已经有十劫了。舍利弗，那尊佛有无量无边的声闻弟子，都是阿罗汉，数量之多不是用算数能够计算得出的。诸菩萨众的数量也是如此。舍利弗，那佛国土成就了如上所说的功德庄严。</p>
                 </div>
               </div>
@@ -255,7 +256,7 @@ export default function Sutra() {
               <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
                 <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">阿鞞跋致</h4>
                 <div className="space-y-4 text-lg text-[#4A3728]">
-                  <p className="mb-4">又舍利弗。极乐国土。众生生者。皆是阿鞞跋致。其中多有一生补处。其数甚多。非是算数所能知之。但可以无量无边阿僧祇说。</p>
+                  <p className="mb-4"><strong>又舍利弗。极乐国土。众生生者。皆是阿鞞跋致。其中多有一生补处。其数甚多。非是算数所能知之。但可以无量无边阿僧祇说。</strong></p>
                   <p>还有，舍利弗，生在极乐国土的众生都是阿鞞跋致（5），其中有很多是一生补处菩萨（6）。这些菩萨的数量非常多，不是用算数能够计算得出的，只能说是无量无边阿僧祇那么多。</p>
                 </div>
               </div>
@@ -275,12 +276,17 @@ export default function Sutra() {
               <div className="prose prose-xl max-w-none">
                 <div className="space-y-6 text-lg leading-relaxed text-[#4A3728]">
                   <div className="bg-amber-50/50 p-6 rounded-lg border border-amber-200">
-                    <p className="mb-4">舍利弗。不可以少善根福德因缘。得生彼国。舍利弗。若有善男子善女人。闻说阿弥陀佛。执持名号。若一日。若二日。若三日。若四日。若五日。若六日。若七日。一心不乱。其人临命终时。阿弥陀佛。与诸圣众。现在其前。是人终时。心不颠倒。即得往生阿弥陀佛极乐国土。</p>
+                    <p className="mb-4"><strong>舍利弗。不可以少善根福德因缘。得生彼国。舍利弗。若有善男子善女人。闻说阿弥陀佛。执持名号。若一日。若二日。若三日。若四日。若五日。若六日。若七日。一心不乱。其人临命终时。阿弥陀佛。与诸圣众。现在其前。是人终时。心不颠倒。即得往生阿弥陀佛极乐国土。</strong></p>
                     <p>舍利弗，不能以少许善根福德因缘，就能往生到那个国土。舍利弗，如果有善男子、善女人，听说阿弥陀佛，执持名号，或一日、或二日、或三日、或四日、或五日、或六日、或七日，一心不乱。这个人临终时，阿弥陀佛与诸圣众，会出现在他面前。这个人临终时，心不颠倒，就能往生到阿弥陀佛的极乐国土。</p>
                   </div>
 
                   <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
-                    <p className="mb-4">舍利弗。我见是利。故说此言。若有众生。闻是说者。应当发愿。生彼国土。</p>
+                    <p className="mb-4"><strong>舍利弗。众生闻者。应当发愿。愿生彼国。所以者何。得与如是诸上善人俱会一处。</strong></p>
+                    <p>舍利弗，众生听到这些，应当发愿往生到那个国土。为什么呢？因为可以与这样的诸上善人共聚一处。</p>
+                  </div>
+
+                  <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
+                    <p className="mb-4"><strong>舍利弗。我见是利。故说此言。若有众生。闻是说者。应当发愿。生彼国土。</strong></p>
                     <p>舍利弗，我看到这个利益，所以说这些话。如果有众生听到这些话，应当发愿往生到那个国土。</p>
                   </div>
                 </div>
@@ -350,6 +356,99 @@ export default function Sutra() {
                 <p>⁵阿鞞跋致：梵语意译为"不退转"，指修行永不退转。</p>
                 <p>⁶一生补处：修行到最后一生就能成佛的菩萨。</p>
                 <p>⁷五浊恶世：指充满五种浊恶的世间：劫浊、见浊、烦恼浊、众生浊、命浊。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="妙音说法">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
+                <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">妙鸟说法</h4>
+                <div className="space-y-4 text-lg text-[#4A3728]">
+                  <p className="mb-4"><strong>复次舍利弗。彼国常有种种奇妙杂色之鸟。白鹄。孔雀。鹦鹉。舍利。迦陵频伽。共命之鸟。是诸众鸟。昼夜六时。出和雅音。其音演畅五根。五力。七菩提分。八圣道分。如是等法。其土众生。闻是音已。皆悉念佛。念法。念僧。</strong></p>
+                  <p>舍利弗，那个国土里常有各种奇妙的杂色鸟：白鹤、孔雀、鹦鹉、舍利、迦陵频伽、共命之鸟。这些鸟儿在昼夜六时中发出和雅的声音。它们的声音演说着五根、五力、七菩提分、八圣道分等佛法。那里的众生听到这些声音后，都会念佛、念法、念僧。</p>
+                </div>
+              </div>
+
+              <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
+                <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">非罪报所生</h4>
+                <div className="space-y-4 text-lg text-[#4A3728]">
+                  <p className="mb-4"><strong>舍利弗。汝勿谓此鸟。实是罪报所生。所以者何。彼佛国土。无三恶道。舍利弗。其佛国土。尚无三恶道之名。何况有实。是诸众鸟。皆是阿弥陀佛。欲令法音宣流。</strong></p>
+                  <p>舍利弗，你不要以为这些鸟是由罪业所感得的果报。为什么呢？因为那佛国土没有三恶道。舍利弗，那佛国土连三恶道的名字都没有，更不用说实际存在了。这些鸟都是阿弥陀佛为了让佛法的声音传播而变化出来的。</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
+              <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">微风法音</h4>
+              <div className="space-y-4 text-lg text-[#4A3728]">
+                <p className="mb-4"><strong>舍利弗。彼佛国土。微风吹动诸宝行树。及宝罗网。出微妙音。譬如百千种乐。同时俱作。闻是音者。自然皆生念佛。念法。念僧之心。舍利弗。其佛国土。成就如是功德庄严。</strong></p>
+                <p>舍利弗，那佛国土里微风吹动宝树和宝网时，会发出微妙的声音，就像百千种乐器同时演奏一样。听到这些声音的人，自然而然地就会生起念佛、念法、念僧的心。舍利弗，那佛国土成就了如上所说的功德庄严。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="六方诸佛称赞">
+            <div className="bg-white/80 p-10 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
+              <div className="prose prose-xl max-w-none">
+                <div className="space-y-6 text-lg leading-relaxed text-[#4A3728]">
+                  <div className="bg-amber-50/50 p-6 rounded-lg border border-amber-200">
+                    <p className="mb-4"><strong>舍利弗。如我今者。赞叹阿弥陀佛。不可思议功德之利。东方亦有阿(门闪)鞞佛。须弥相佛。大须弥佛。妙音佛。如是等恒河沙数诸佛。各于其国。出广长舌相。遍覆三千大千世界。说诚实言。汝等众生。当信是称赞不可思议功德一切诸佛所护念经。</strong></p>
+                    <p>舍利弗，就像我现在称赞阿弥陀佛不可思议的功德利益一样，东方也有阿閦鞞佛、须弥相佛、大须弥佛、妙音佛等如恒河沙数那么多的佛。他们各自在自己的国土中，现出广长舌相，遍覆三千大千世界，说诚实语："你们众生应当相信这部称赞不可思议功德、一切诸佛所护念的经。"</p>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
+                      <h5 className="font-semibold text-[#8B4513] mb-3">南方诸佛</h5>
+                      <p className="mb-4"><strong>舍利弗。南方世界。有日月灯佛。名闻光佛。大焰肩佛。须弥灯佛。无量精进佛。如是等恒河沙数诸佛。各于其国。出广长舌相。遍覆三千大千世界。说诚实言。汝等众生。当信是称赞不可思议功德一切诸佛所护念经。</strong></p>
+                      <p>南方世界有日月灯佛、名闻光佛、大焰肩佛、须弥灯佛、无量精进佛等如恒河沙数那么多的佛，他们也都现出广长舌相，遍覆三千大千世界，说诚实语。</p>
+                    </div>
+
+                    <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
+                      <h5 className="font-semibold text-[#8B4513] mb-3">西方诸佛</h5>
+                      <p className="mb-4"><strong>舍利弗。西方世界。有无量寿佛。无量相佛。无量幢佛。大光佛。大明佛。宝相佛。净光佛。如是等恒河沙数诸佛。各于其国。出广长舌相。遍覆三千大千世界。说诚实言。汝等众生。当信是称赞不可思议功德一切诸佛所护念经。</strong></p>
+                      <p>西方世界有无量寿佛、无量相佛、无量幢佛、大光佛、大明佛、宝相佛、净光佛等如恒河沙数那么多的佛，他们也都现出广长舌相，遍覆三千大千世界，说诚实语。</p>
+                    </div>
+
+                    <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
+                      <h5 className="font-semibold text-[#8B4513] mb-3">北方诸佛</h5>
+                      <p className="mb-4"><strong>舍利弗。北方世界。有焰肩佛。最胜音佛。难沮佛。日生佛。网明佛。如是等恒河沙数诸佛。各于其国。出广长舌相。遍覆三千大千世界。说诚实言。汝等众生。当信是称赞不可思议功德一切诸佛所护念经。</strong></p>
+                      <p>北方世界有焰肩佛、最胜音佛、难沮佛、日生佛、网明佛等如恒河沙数那么多的佛，他们也都现出广长舌相，遍覆三千大千世界，说诚实语。</p>
+                    </div>
+
+                    <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
+                      <h5 className="font-semibold text-[#8B4513] mb-3">下方诸佛</h5>
+                      <p className="mb-4"><strong>舍利弗。下方世界。有师子佛。名闻佛。名光佛。达摩佛。法幢佛。持法佛。如是等恒河沙数诸佛。各于其国。出广长舌相。遍覆三千大千世界。说诚实言。汝等众生。当信是称赞不可思议功德一切诸佛所护念经。</strong></p>
+                      <p>下方世界有师子佛、名闻佛、名光佛、达摩佛、法幢佛、持法佛等如恒河沙数那么多的佛，他们也都现出广长舌相，遍覆三千大千世界，说诚实语。</p>
+                    </div>
+
+                    <div className="bg-white/90 p-6 rounded-lg border border-amber-100">
+                      <h5 className="font-semibold text-[#8B4513] mb-3">上方诸佛</h5>
+                      <p className="mb-4"><strong>舍利弗。上方世界。有梵音佛。宿王佛。香上佛。香光佛。大焰肩佛。杂色宝华严身佛。娑罗树王佛。宝华德佛。见一切义佛。如须弥山佛。如是等恒河沙数诸佛。各于其国。出广长舌相。遍覆三千大千世界。说诚实言。汝等众生。当信是称赞不可思议功德一切诸佛所护念经。</strong></p>
+                      <p>上方世界有梵音佛、宿王佛、香上佛、香光佛、大焰肩佛、杂色宝华严身佛、娑罗树王佛、宝华德佛、见一切义佛、如须弥山佛等如恒河沙数那么多的佛，他们也都现出广长舌相，遍覆三千大千世界，说诚实语。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="护念功德">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
+                <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">护念之因</h4>
+                <div className="space-y-4 text-lg text-[#4A3728]">
+                  <p className="mb-4"><strong>舍利弗。于汝意云何。何故名为一切诸佛所护念经。舍利弗。若有善男子。善女人。闻是经受持者。及闻诸佛名者。是诸善男子。善女人。皆为一切诸佛之所护念。皆得不退转于阿耨多罗三藐三菩提。是故舍利弗。汝等皆当信受我语。及诸佛所说。</strong></p>
+                  <p>舍利弗，你知道为什么这部经叫做"一切诸佛所护念经"吗？舍利弗，如果有善男子、善女人，听闻这部经并受持，以及听闻诸佛的名号，这些善男子、善女人，都会得到一切诸佛的护念，都能在无上正等正觉的道路上永不退转。因此，舍利弗，你们都应当相信我的话和诸佛所说的。</p>
+                </div>
+              </div>
+
+              <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100">
+                <h4 className="text-xl font-bold mb-6 text-[#8B4513] border-b border-amber-200 pb-3">发愿往生</h4>
+                <div className="space-y-4 text-lg text-[#4A3728]">
+                  <p className="mb-4"><strong>舍利弗。若有人已发愿。今发愿。当发愿。欲生阿弥陀佛国者。是诸人等。皆得不退转于阿耨多罗三藐三菩提。于彼国土。若已生。若今生。若当生。是故舍利弗。诸善男子。善女人。若有信者。应当发愿生彼国土。舍利弗。如我今者。称赞诸佛不可思议功德。彼诸佛等。亦称赞我不可思议功德。</strong></p>
+                  <p>舍利弗，如果有人过去发愿、现在发愿、将来发愿要往生到阿弥陀佛的国土，这些人都能在无上正等正觉的道路上永不退转。在那个国土中，有的已经往生了，有的现在往生，有的将来往生。因此，舍利弗，如果善男子、善女人有信心，就应当发愿往生到那个国土。舍利弗，就像我现在称赞诸佛不可思议的功德一样，那些佛也称赞我不可思议的功德。</p>
+                </div>
               </div>
             </div>
           </Section>
