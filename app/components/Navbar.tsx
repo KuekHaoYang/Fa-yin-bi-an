@@ -22,7 +22,7 @@ export function AppNavbar() {
     { title: "基础佛法", path: "/basic" },
     { title: "修行大要", path: "/cultivation" },
     { title: "佛典故事", path: "/stories" },
-    { title: "如来诸经", path: "/sutras" },
+    { title: "如来诸经", path: "/sutra" },
     { title: "禅宗大义", path: "/zen" },
     { title: "如何往生", path: "/rebirth" },
     { title: "佛教历史", path: "/history" },
