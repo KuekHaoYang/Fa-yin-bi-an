@@ -113,9 +113,15 @@ export default function Sutra() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Link href="/sutra/amitabha" className="group">
-            <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+            <div className="bg-white/80 p-8 flex flex-col justify-center items-center rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 min-h-[200px]">
               <h2 className="text-2xl font-bold text-center text-[#8B4513] mb-4 group-hover:text-amber-600">阿弥陀经</h2>
               <p className="text-[#4A3728] text-center">佛说阿弥陀经，又称《小无量寿经》，是净土三经之一，为释迦牟尼佛所说之经典。</p>
+            </div>
+          </Link>
+          <Link href="/sutra/amitabha_ritual" className="group">
+            <div className="bg-white/80 p-8 flex flex-col justify-center items-center rounded-2xl shadow-xl backdrop-blur-sm border border-amber-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 min-h-[200px]">
+              <h2 className="text-2xl font-bold text-center text-[#8B4513] mb-4 group-hover:text-amber-600">阿弥陀经规仪</h2>
+              <p className="text-[#4A3728] text-center">修净土法门可，消灾延寿，往生净土。</p>
             </div>
           </Link>
           
@@ -124,4 +130,4 @@ export default function Sutra() {
       </div>
     </div>
   );
-} 
+}
